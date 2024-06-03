@@ -29,7 +29,7 @@ Este projeto foi desenvolvido como parte do Global Solution da faculdade FIAP pe
 
 ## Requisitos
 
-- Python 3.x
+- Python 3.11.9
 - Bibliotecas Python: Keras, Pillow, NumPy, Requests
 
 Você pode instalar as bibliotecas necessárias usando pip:
