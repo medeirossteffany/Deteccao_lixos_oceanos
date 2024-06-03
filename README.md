@@ -19,6 +19,12 @@ Este projeto foi desenvolvido como parte do Global Solution da faculdade FIAP pe
 - Registro da data e hora da análise.
 - Armazenamento dos resultados de múltiplas análises para revisão posterior.
 
+## Observações
+
+- Coloque o arquivo keras_model.h5 no diretório do programa.
+- Coloque as imagens que deseja analisar no diretório do programa. (Exemplo imagem: marLimpo3.jpg) 
+- O programa solicitará o caminho da imagem que você deseja analisar. Digite o caminho completo da imagem. (Exemplo caminho pelo colab: marLimpo3.jpg) 
+
 ## Requisitos
 
 - Python 3.x
@@ -28,9 +34,5 @@ Você pode instalar as bibliotecas necessárias usando pip:
 ```bash
 pip install keras pillow numpy requests
 
-## Observações
 
-- Coloque o arquivo keras_model.h5 no diretório do programa.
-- Coloque as imagens que deseja analisar no diretório do programa.
-- O programa solicitará o caminho da imagem que você deseja analisar. Digite o caminho completo da imagem.
 
