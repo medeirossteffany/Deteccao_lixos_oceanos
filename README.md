@@ -1,10 +1,12 @@
-# Projeto: Protótipo de Simulação de Análise de Oceanos e Mares por Drone
+# Projeto: Simulação de Análise de Lixos em Oceanos e Mares por Drone
 
 ## Descrição do Projeto
 
 Este projeto é um protótipo de simulação de um drone que analisa oceanos e mares em tempo real, classificando se há lixo na área analisada. Utilizando um modelo de aprendizado de máquina para a classificação, o programa recebe imagens que simulam a captura feita pelo drone e determina se a área está limpa ou suja.
 
 Para simular a localização da análise, o usuário fornece um endereço, e o programa utiliza a API Nominatim do OpenStreetMap para converter o endereço em coordenadas de latitude e longitude. O programa também registra a data e a hora da análise, simulando um sistema de registro em tempo real.
+
+Atualmente, o programa solicita que o usuário forneça um endereço, pois não estamos utilizando um GPS. No entanto, em um drone real, os dados de localização viriam de um GPS integrado em sua estrutura.
 
 Este projeto foi desenvolvido como parte do Global Solution da faculdade FIAP pelos membros:
 - Steffany Medeiros (RM 556262)
@@ -13,7 +15,7 @@ Este projeto foi desenvolvido como parte do Global Solution da faculdade FIAP pe
 
 ## Funcionalidades
 
-- Carregamento de imagens para análise.
+- O programa permite múltiplas análises até que o usuário decida finalizar o loop com o comando "finalizar".
 - Classificação das imagens utilizando um modelo pré-treinado para determinar se a área está limpa ou suja.
 - Conversão de endereços em coordenadas geográficas (latitude e longitude) usando a API Nominatim.
 - Registro da data e hora da análise.
