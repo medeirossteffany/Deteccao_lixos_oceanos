@@ -1,4 +1,4 @@
-# Projeto: Simulação de Análise de Lixos em Oceanos e Mares por Drone
+# Projeto: Simulação de Detecção de Lixos em Oceanos e Mares por Drone
 
 ## Descrição do Projeto
 
