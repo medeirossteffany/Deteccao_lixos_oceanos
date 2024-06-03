@@ -22,8 +22,8 @@ Este projeto foi desenvolvido como parte do Global Solution da faculdade FIAP pe
 ## Observações
 
 - Coloque o arquivo keras_model.h5 no diretório do programa.
-- Coloque as imagens que deseja analisar no diretório do programa. (Exemplo imagem: marLimpo3.jpg) 
-- O programa solicitará o caminho da imagem que você deseja analisar. Digite o caminho completo da imagem. (Exemplo caminho pelo colab: marLimpo3.jpg) 
+- Coloque as imagens que deseja analisar no diretório do programa. (Exemplo imagem: marLimpo.jpg) 
+- O programa solicitará o caminho da imagem que você deseja analisar. Digite o caminho completo da imagem. (Exemplo caminho pelo colab: marLimpo.jpg) 
 
 ## Requisitos
 
